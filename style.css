@@ -1,0 +1,224 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.logoimg{
+    height:50px;
+    width:100px;
+    position:absolute;
+    left:50px;
+}
+.header .left i{
+    position:absolute;
+    bottom: 20px;
+    top:20px;
+    left:150px;
+    top:30px;
+    
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.header .left{
+    display:flex;
+    justify-content: space-evenly;
+    width:50%;
+
+}
+
+
+.left input{
+    position:absolute;
+    left:200px;
+    width:300px;
+    height:50px;
+    top:10px;
+    border-radius: 5cm;
+}
+
+.header .right{
+    display:flex;
+    width:50%;
+    justify-content: space-evenly;
+    color:grey
+}
+.header .right a{
+    color:grey;
+    text-decoration:none;
+}
+
+.right i{
+    position:relative;
+    top:25px;
+    left:37px;
+}
+
+.right button{
+    background-color: white;
+    color:black;
+    height:40px;
+    position:relative;
+    top:10px;
+    font-weight:bold;
+    border-radius: 5cm;
+
+}
+main{
+    background-color: black;
+}
+
+.trending{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.img{
+    height:200px;
+    width:200px;
+    border-radius:5%;
+    position:relative;
+    left:20px;
+    top:5px;
+}
+
+
+
+.song{
+    
+    border-radius:5%;
+    transition-duration: 0.5s;
+}
+
+.song:hover{
+    background-color:rgba(255,255,255,0.1);
+    box-shadow:0.5px 0.5px 0px white ;
+    color:white;
+    
+
+}
+.romantic{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+main h1,h2{
+    color: white;
+}
+
+.classics{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.PopularArtists{
+    display: flex;
+    justify-content: space-evenly;
+}
+.arimg{
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+}
+
+.PopularArtists h4{
+    color:white;
+}
+.PopularArtists h5{
+    color:grey;
+}
+
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    color:white;
+    line-height: 15px;
+}
+
+footer a{
+    color:grey;
+    text-decoration:none;
+    line-height: 10px;
+}
+
+
+footer a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.social{
+    display:flex;
+    justify-content: space-between;
+}
+.social i{
+    position:relative;
+    top:100px;
+    
+}
+#instagram{
+    position:relative;
+    right:20px;
+    
+    
+}
+#facebook{
+    position:relative;
+    left:20px;
+}   
+#twitter{
+    position:relative;
+    
+    
+}
+
+aside h4{
+    color:grey;
+}
+
+.top{
+    display:flex;
+    justify-content: space-evenly;
+    height:320px;
+}
+.top .topimg{
+    height:120px;
+    width:120px;
+    position:relative;
+    right:50px;
+}
+
+.top .topimg h5{
+    color:grey;
+}
+
+@media(max-width:1274px){
+    .trending{
+        flex-wrap:wrap;
+    }
+    .romantic{
+        flex-wrap:wrap;
+    }
+    .classics{
+        flex-wrap:wrap;
+    }
+    .PopularArtists{
+        flex-wrap:wrap;
+    }
+    .top{
+        height:600px;
+        flex-wrap:wrap;
+    }
+    .foot{
+        flex-wrap:wrap;
+    }
+
+
+}
+
